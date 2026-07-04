@@ -9,10 +9,10 @@ jobs:
    runs-on:  ubuntu_latest
 
   steps:
-    name: check repository
+    - name: check repository
     runs-on: action/checkout
 
-    name: read app.txt file
+    - name: read app.txt file
     run: cat app.txt
     
   
